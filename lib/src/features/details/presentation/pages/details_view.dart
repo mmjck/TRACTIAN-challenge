@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tree_view_application/src/core/utils/constants/colors.dart';
+import 'package:tree_view_application/src/core/styles/app_colors.dart';
 import 'package:tree_view_application/src/core/utils/constants/keys_strings.dart';
 import 'package:tree_view_application/src/features/details/presentation/pages/details_view_model.dart';
 import 'package:tree_view_application/src/shared/domain/enums/enum.dart';
@@ -29,7 +29,7 @@ class _InfoDetailsViewState extends State<InfoDetailsView> {
     return Scaffold(
       appBar: AppBar(
         title: Text(KeysString.assets),
-        backgroundColor: ColorsUtils.darkBlue,
+        backgroundColor: AppColors.darkBlue,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () => Navigator.of(context).pop(),
