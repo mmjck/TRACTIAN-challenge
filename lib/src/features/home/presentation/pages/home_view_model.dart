@@ -17,7 +17,7 @@ class HomeViewModel extends BaseViewModel {
         MaterialPageRoute(
             builder: (c) => InfoDetailsView(
                 viewModel: DetailsViewModel(
-                    dependencies: DetailsDepencendies(database: database)))),
+                    dependencies: DetailsDependencies(database: database)))),
       );
     }
   }

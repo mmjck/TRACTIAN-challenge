@@ -25,7 +25,7 @@ class DetailsViewModel extends BaseViewModel {
     notifyListeners();
   }
 
-  final DetailsDepencendies dependencies;
+  final DetailsDependencies dependencies;
   DetailsViewModel({required this.dependencies});
 
   final List<Location> locations = [];
